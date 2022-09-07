@@ -1,0 +1,134 @@
+.Items__bgdiv{
+    padding-right: 1rem;
+    background-color: #FFFFFF ;
+}
+.items__maindiv{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.items__maindiv h1{
+    font-size: 3rem;
+    color:red;
+    text-align: left;
+    margin-top: 2rem;
+}
+.items__additemsdiv{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.items__additemsdiv button{
+    background-color: #1CB395 !important;
+    padding: 0.5rem 1.5rem;
+    border: 1px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+
+.items__additemsdiv button:hover{
+    cursor: pointer;
+
+}
+.items__addstockbtn{
+    background:#1CB395;
+    padding: 0.3rem 0.3rem;
+    border: 1px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+.items__addstockbtn:hover{
+    cursor: pointer;
+}
+.items__deltebutton:hover{
+    cursor:pointer;
+}
+.items__deltebutton{
+    background:red;
+    padding: 0.3rem 0.3rem;
+    border: 1px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+.items__searchandbtndiv{
+    display: flex;
+    justify-content: space-between;
+}
+.items__searchandbtndiv input{
+    padding: 0.3rem;
+    outline: none;
+    width: 70%;
+}
+.items__searchandbtndiv button{
+    background-color: #1CB395 !important;
+    padding: 0.5rem 1.5rem;
+    border: 1px;
+    color: white;
+    margin-right: 3rem !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+.items__tableimg{
+    height: 2rem;
+}
+.table{
+    width: 100%;
+}
+.table-striped{
+    width: 100%;
+} 
+.items__tabletr{
+    color: red !important;
+}
+.stock__column{
+    /* background-color: red !important; */
+    color: red !important;
+    font-weight: 600 !important;
+}
+/* @media screen and (max-width:1250px) {
+    .Items__bgdiv{
+        padding-left: 12rem;
+       
+    }
+}
+@media screen and (max-width:990px) 
+{
+    .Items__bgdiv{
+
+        padding-top: 2rem;
+        padding-left: 0rem;
+       
+    }
+} */
+@media screen and (max-width:700px){
+
+    .items__maindiv h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .items__additemsdiv button{
+        font-size: 0.8rem;
+        padding: 0.3rem;
+       
+    }
+    .addItembtndiv{
+        width: 60%;
+        margin-top: 1rem;
+    }
+    .items__searchandbtndiv{
+        flex-direction: column;
+    }
+    .items__searchandbtndiv input{
+        width: 80%;
+    }
+    .items__searchandbtndiv{
+        width: 100%;
+    }
+}

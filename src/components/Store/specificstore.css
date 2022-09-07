@@ -1,0 +1,31 @@
+.specificStore__maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+   
+    background-color: #FFFFFF;
+}
+.specificStore__bgdiv{
+    padding-right: 2rem;
+    background-color: #FFFFFF;
+}
+.specifiStore__idandlocationdiv{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.specifiStore__idandlocationdiv h5{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+
+}
+@media screen and (max-width:990px) {
+    .specifiStore__idandlocationdiv{
+        margin-left: 6rem;
+    }
+    
+}

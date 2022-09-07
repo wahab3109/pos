@@ -1,0 +1,19 @@
+.welcome__p{
+    font-size: 5rem;
+    color: orangered;
+    text-align: center;
+    font-weight: 600;
+padding-top: 10rem;
+}
+.welcome__smallp{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.welcome__maindiv{
+    background-image: url("../../images/welcomeposimage.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+

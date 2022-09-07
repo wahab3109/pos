@@ -1,0 +1,26 @@
+.od_maindiv{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.od__orderId{
+    display: flex;
+    align-self: flex-start;
+    gap: 1rem;
+}
+.od__orderId p{
+    color: #1CB395;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.od__backicon{
+    color: #1CB395;
+    transform: scale(1.5);
+    margin-top: 0.5rem;
+}
+.od__backicon:hover{
+    cursor: pointer;
+}

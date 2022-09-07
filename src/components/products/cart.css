@@ -1,0 +1,153 @@
+.cart__imgdiv img{
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.2rem;
+}
+.cart__maindiv h6{
+    font-size: 1.8rem;
+    color: #1CB395;
+    text-align: left !important;
+}
+.cart__bgdiv{
+    width: 100%;
+    background-color: white;
+
+}
+.cart__maindiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.cart__orderitemsdiv{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.cart__imgdiv{
+    width: 40%;
+}
+.cart__headingandpricediv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.cart__pricequantity{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart__headingdiv p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+
+}
+.cart__pricequantity{
+    margin-top: -0.3rem;
+}
+.cart__pricequantity p{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    color: #1CB395;
+}
+.cart__icons{
+    transform: scale(0.8);
+    background-color:#1CB395 ;
+    color: white;
+    border-radius: 0.1rem;
+}
+.cart__icons:hover{
+    cursor: pointer;
+}
+.quantitydiv{
+    margin-top: -0.2rem;
+}
+.quantitydiv span{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0rem 0.2rem;
+
+}
+.cart__datadiv{
+    width: 80%;
+    margin:0rem auto;
+    margin-top: 5rem;
+    display: flex;
+    background-color: #F8F8F8;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    gap: 0.2rem;
+
+}
+.cat__datainnerdiv{
+    display: flex;
+    padding: 0rem 0.5rem;
+    justify-content: space-between;
+}
+.cat__datainnerdiv span{
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.cat__datainnerdiv p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.totalspan{
+    font-size: 1.4rem !important;
+}
+.totalp{
+    font-size: 1.4rem !important;
+}
+.cart__datalastinner{
+    margin-top: 0.5rem;
+    border-top: 0.5px solid gray;
+}
+.order__button{
+    width: 80%;
+    margin: 0rem auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.order__button button{
+    width: 100%;
+    padding: 0.3rem 0rem;
+    font-size: 1.2rem;
+    color: white;
+    border: 1px;
+    border-radius: 0.2rem;
+    background-color: #1CB395;
+}
+.order__paymentmethod{
+    width: 80%;
+    margin: 0rem auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.order__paymentmethod p{
+    font-weight: 600;
+}
+.order__radiodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.order__radiodiv span{
+    margin-right: 3rem;
+}
+.shop__shopname{
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 0.3rem;    
+}

@@ -1,0 +1,23 @@
+.dashboard__bgdiv{
+    width: 100%;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    /* border: 2px solid red; */
+    background-color: #EFF0F2;
+}
+@media screen and (max-width:1185px) {
+    .dashboard__bgdiv{
+        
+    }
+}
+@media screen and (max-width:990px) 
+{
+    .dashboard__bgdiv{
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
+    /* .shop__categorysearchdiv{
+        margin-left: 5rem;
+    }
+     */
+}

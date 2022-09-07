@@ -1,0 +1,122 @@
+.shop__maindiv{
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+
+    
+}
+.shop__bgdiv{
+    width: 100%;
+    padding-right: 1rem;
+    /* padding-left: 15rem; */
+    background-color: #EFF0F2;
+}
+.shop__leftshop{
+    width: 100%;
+}
+.shop__categorysearchdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Searchbar__shopdiv{
+    width: 50%;
+}
+.searchbar__shop{
+    padding: 0.4rem;
+    width: 100%;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px;
+}
+.Category__div{
+    /* border: 2px solid gray; */
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+.percategory img{
+
+    width: 2rem;
+    background-size: cover;
+    height: 2rem;
+}
+.percategory{
+    background-color: white;
+
+    width: 100%;    
+    border-radius: 1rem;
+    color: #1CB395;
+    padding-top: 0.5rem;
+    /* border: 1px solid green */
+}
+.percategory p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    
+}
+.percategory:hover{
+    border: 1px solid #1CB395 ;
+    cursor: pointer;
+}
+.shop__categoryheading{
+    font-size: 2.4rem;
+    margin-top: 1.3rem;
+    color: #1CB395;
+
+    text-align: left;
+}
+.shop__categorysearchdiv h1{
+    font-size: 1.8rem;
+    color: #1CB395;
+}
+.shop__items{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 100%;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+
+}
+.shop__rightcart{
+    width: 30%;
+    min-width: 27%;
+    display: flex;
+   
+}
+.shop__paginationdiv{
+    width: 40%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* @media screen and (max-width:1250px) {
+    .shop__bgdiv{
+        padding-left: 12rem;
+       
+    }
+} */
+/* @media screen and (max-width:990px) 
+{
+    .shop__bgdiv{
+        padding-left: 0rem;
+        width: 110%;
+    }
+    .shop__categorysearchdiv{
+        margin-left: 5rem;
+    }
+    
+} */
+/* @media screen and (max-width:550px) 
+{
+    .shop__bgdiv{
+        padding-left: 0rem;
+        width: 100%;
+    }
+   
+} */

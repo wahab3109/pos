@@ -1,0 +1,135 @@
+.register__maindiv{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+}
+.register__leftimagediv{
+    width:55%;
+    height: 105vh;
+    /* border: 2px solid green; */
+    background-image: url("../../images/registerformpic.jpg");
+    background-size: cover;
+}
+.register__leftimagediv h1{
+
+    text-align: center;
+
+    font-size: 3rem;
+    margin-top: 17rem;
+    color: #3F51B5;
+    filter: brightness(100%) !important;
+
+}
+.register__rightdiv{
+    background-color: white;
+
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+    background-color: #fff;
+    flex-direction: column;
+}
+.register__rightdiv h2{
+    color: gray;
+    text-align: left;
+
+}
+.register__rightdiv h1{
+    color: black;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-top: -0.3rem;
+}
+.register__rightdiv p {
+    color: #718096;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: -0.3rem;
+}
+.resgister__rightdiv__span{
+    color: blue;
+    text-decoration: underline;
+}
+.resgister__rightdiv__span:hover{
+    text-decoration: auto;
+    cursor: pointer;
+}
+.regiter__form{
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+.regiter__form input{
+    background-color:#F3F4F6;
+    padding: 1rem;
+    width: 80%;
+    border: 0.3px solid gray;
+    border-radius: 0.5rem;
+}
+.regiter__form input:focus{
+    background-color: white;
+    outline: none;
+
+}
+.registform__button__div{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 0.4rem;
+    justify-content: space-between;
+  
+}
+.registform__button__div button{
+    background-color: #1CB395;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem 0.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid;
+}
+/* .registform__button__div button::before{
+    content: "🔎 ";
+} */
+.registform__button__div button:hover{
+    cursor: pointer;
+}
+.register__agreementp{
+    margin-top: 1rem !important;
+
+}
+@media screen and (max-width:990px) {
+    .register__leftimagediv{
+        display: none;
+    }
+    .register__maindiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .register__rightdiv{
+        width: 80%;
+        margin: 0rem auto !important;
+        /* border: 2px solid red; */
+        margin-top: 10rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+@media screen and (max-width:486px){
+    .registform__button__div button{
+        font-size: 0.6rem;
+    }
+    .register__rightdiv p{
+        text-align: center;
+    }
+
+    
+}

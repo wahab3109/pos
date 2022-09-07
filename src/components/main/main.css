@@ -1,0 +1,291 @@
+.main__bgdiv{
+    /* background-color: #EFF0F2; */
+}
+.main__maindiv{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    /* background-color: #EFF0F2; */
+}
+/* .main__leftsidebar__parent{
+    height: 100%; 
+    background-color: yellow;
+    border: 2px solid yellow;
+} */
+.main__leftsidebar{
+    display: flex;
+     background-color: #293948;
+    padding-left: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 15%;
+    top: 0; /* Stay at the top */
+    left: 0;
+   
+height: 100vh;
+   
+    position: fixed;
+    overflow-x: hidden;
+    /* position: fixed; */
+}
+.main__leftsidebar__role{
+    font-size: 1rem;
+    margin-top: -1rem;
+    color: white;
+
+    text-align: left;
+}
+.main__leftsidebar__icons{
+    transform: scale(0.8);
+    color: white;
+}
+.main__leftsidebar__data{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+
+    gap:5px;
+    }
+.main__leftsidebar__menu{
+    display: flex;
+    gap:0.6rem;
+    /* margin-top: 0.7rem; */
+    /* border: 1px solid green; */
+    
+}
+.main__leftsidebar__menu h2{
+    font-size: 1rem;
+    color: gray;
+
+    font-weight: 500
+}
+.main__leftsidebar__menu h2:hover{
+    font-size: 1rem;
+    color: white;
+
+    font-weight: 500
+}
+/* //right bar */
+.main__rightsidebar{
+    width: 100%; 
+   padding-left: 15.2%;
+   /* border: 2px solid red; */
+   /* z-index: 99999999; */
+}
+
+.main__searchdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #F3F3F5;
+
+}
+.main__searchdiv div{
+    display: flex;
+    gap: 1rem;
+    padding: 0.3rem;
+    width: 90%;
+}
+.main__rightsidebar__icon{
+    margin-top: 0.2rem;
+    color: #1CB395;
+}
+
+.main__searchbox{
+    background-color: #F3F3F5;
+    width: 80%;
+    color: #1CB395;
+
+    padding: 0.4rem 0rem 0.4rem 1rem;
+    border: none;
+    outline: none;
+}
+.main__salesandtotaldiv{
+    display: flex;
+    gap:2rem;
+    /* border: 2px solid pink; */
+}
+.main__today_yesterday{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+.main__todayspecific{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+    /* border: 2px solid black; */
+}
+.main__todayandnumber{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    border-bottom: 1px solid #F3F3F5 ;
+}
+.main__todayandnumber span{
+    font-weight: bold;
+    color: #1CB395;
+
+}
+.main__numberspan{
+    color: white;
+    background-color: #1CB395;
+    padding: 0rem 0.3rem;
+    margin-top: -0.001rem;
+}
+.main__totalsales{
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+    /* border: 2px solid black; */
+}
+.main__totalsalesandnum{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding:0rem 1rem;
+    padding-top: 0.4rem;
+    border-bottom: 1px solid #F3F3F5 ;
+}
+.main__totalsalesandnum span{
+    font-weight: bold;
+    color: #1CB395;
+}
+.rightsidebar__chartdiv{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+
+    margin-bottom: 1rem;
+}
+.lineChartdiv{
+    width: 49%;
+    background-color: white;
+
+}
+.graphchartdiv{
+    width: 49%;
+    background-color: white;
+}
+
+/* .lineChartcenterdiv{
+    width: 90%;
+    margin: 0rem auto;
+}
+.lineChart{
+    width: 100%;
+}
+.graphchartdiv{
+    width: 38.5%;
+    background-color: white;
+}
+.rightsidebartablediv{
+    margin-top: 2rem;
+} */
+.Headingdiv{
+    width: 100%;
+    background-color: #1CB395;
+    padding: 3px 0px;
+    padding-left: 1rem;
+}
+.Headingdiv h4{
+    color: white;
+    text-align: left;
+}
+.main__link{
+    text-decoration: none;
+}
+.nav__flex{
+    display: flex;
+    flex-direction: column !important;
+    background-color: #293948;
+}
+.navbar{
+    background-color: #293948 !important;
+    margin-left: -1rem !important;
+}
+a:active,
+a.active{
+    color:red !important
+}
+
+a.active{
+    background-color:red !important;
+}
+.main__link .active{
+    background-color:pink !important
+}
+@media screen and (max-width:990px) {
+    .main__leftsidebar{
+       
+        background-color: #EFF0F2 !important;
+        position: absolute;
+        width:inherit;
+        height: inherit;
+        z-index: 1;
+    }
+   
+    .main__maindiv{
+        flex-direction: column;
+    }
+    .main__rightsidebar{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+     
+}
+
+@media screen and (max-width:1185px) 
+{
+    .main__salesandtotaldiv{
+        flex-direction: column;
+    }
+    .main__today_yesterday{
+        width: 100%;
+    }
+    .main__totalsales{
+        width: 100%;
+    }
+    .lineChartdiv{
+        width: 100%;
+    }
+    .graphchartdiv{
+        width: 100%;
+    }
+    .rightsidebar__chartdiv{
+        flex-direction: column;
+        width: 100%;
+        margin: 0rem auto;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:718px) 
+{
+    .main__today_yesterday{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:510px) {
+    #SvgjsSvg4163{
+        width: 200px !important;
+    }
+    #apexchartsb1{
+        width: 200px  !important;
+    }
+    
+}
+@media screen and (max-width:460px) {
+    .main__today_yesterday{
+        flex-direction: column;
+    }
+    
+}
